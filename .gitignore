@@ -1,0 +1,54 @@
+# Eclipse project files
+.classpath
+.project
+.settings
+/bin/
+
+# Intellij project files
+*.iml
+.idea/
+
+# JRebel
+rebel.xml
+
+# Bower, NPM
+node_modules/
+bower_components/
+
+# SASS
+.sass-cache
+
+# Maven
+target/
+
+# System
+*.DS_Store
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Project Releted
+applogs
+logs
+titan-web/target/
+titan-web/test/
+
+var
+
+# tar文件
+titan-web/*.tar
+titan-web/*.tar.gz
+
+# titan-web resources
+titan-web/src/main/resources/static
+titan-web/src/main/resources/templates
+
+*.log
